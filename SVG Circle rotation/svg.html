@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="animate">
+<head>
+  	<meta charset="utf-8"/>
+    <title>Nozbe</title>
+
+    <!-- Startup configuration -->
+    <link rel="manifest" href="manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <style>
+
+      *, *::after, *::before {
+        box-sizing: inherit;
+      }
+
+      svg:not(:root) {
+        overflow: visible;
+      }
+
+      .login-progress__circle {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+      }
+
+      .login-progress__circle-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: .25;
+      }
+
+      .login-progress__circle-inner {
+        position: relative;
+        z-index: 10;
+      }
+
+      .login-progress__circle-placeholder .login-progress__circle-circle {
+        stroke-dashoffset: 0;
+      }
+
+      .login-progress__circle-circle {
+        stroke-width: 8px;
+      }
+
+      .login-progress__circle-inner .login-progress__circle-circle {
+        -webkit-transition: stroke-dashoffset 0.2s ease-in-out;
+        -moz-transition: stroke-dashoffset 0.2s ease-in-out;
+        transition: stroke-dashoffset 0.2s ease-in-out;
+        -webkit-transform: rotate(-90deg) translateX(-200px);
+        -moz-transform: rotate(-90deg) translateX(-200px);
+        -ms-transform: rotate(-90deg) translateX(-200px);
+        -o-transform: rotate(-90deg) translateX(-200px);
+        transform: rotate(-90deg) translateX(-200px);
+        stroke-dasharray: 503px;
+        stroke-dashoffset: 503px;
+        stroke-linecap: round;
+      }
+    </style>
+</head>
+<body>
+   <div class="login-progress__circle">
+      <svg
+        class="login-progress__circle-placeholder"
+        width="200" height="200">
+        <circle
+          class="login-progress__circle-circle"
+          cx="100" cy="100" r="80" stroke="#28ce63"
+          stroke-width="5" fill="none" />
+      </svg>
+      <svg
+        class="login-progress__circle-inner"
+        width="200" height="200">
+        <circle
+          class="login-progress__circle-circle"
+          cx="100" cy="100" r="80" stroke="#28ce63"
+          strokeWidth="5" fill="none"
+          style="stroke-dashoffset: 402;" />
+      </svg>
+    </div>
+</body>
+</html>

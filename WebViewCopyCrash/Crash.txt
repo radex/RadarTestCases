@@ -1,0 +1,33 @@
+2016-08-09 10:28:18.517 WebViewCopyCrash[27602:5032361] -[UIThreadSafeNode _responderForEditing]: unrecognized selector sent to instance 0x60000000bf70
+2016-08-09 10:28:18.521 WebViewCopyCrash[27602:5032361] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[UIThreadSafeNode _responderForEditing]: unrecognized selector sent to instance 0x60000000bf70'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x000000010dba9a0b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x000000010b09821e objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010dc194e4 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x000000010db2f255 ___forwarding___ + 1013
+	4   CoreFoundation                      0x000000010db2edd8 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x000000010ba646c9 -[UIKeyboardLayoutStar touchDownWithKey:atPoint:executionContext:] + 1339
+	6   UIKit                               0x000000010ba63eb7 -[UIKeyboardLayoutStar completeHitTestForTouchDown:executionContext:] + 1269
+	7   UIKit                               0x000000010c095d87 -[UIKeyboardTaskExecutionContext returnExecutionToParentWithInfo:] + 278
+	8   UIKit                               0x000000010ba59edc -[UIKeyboardLayoutStar performHitTestForTouchInfo:touchStage:executionContextPassingUIKBTree:] + 1950
+	9   UIKit                               0x000000010ba637ee -[UIKeyboardLayoutStar touchDown:executionContext:] + 609
+	10  UIKit                               0x000000010b84fb13 __47-[UIKeyboardLayout touchDownTaskForTouchState:]_block_invoke + 296
+	11  UIKit                               0x000000010c0962f9 -[UIKeyboardTaskQueue continueExecutionOnMainThread] + 385
+	12  UIKit                               0x000000010b850e94 -[UIKeyboardLayout touchesBegan:withEvent:] + 562
+	13  UIKit                               0x000000010b5d6a5d -[UIWindow _sendTouchesForEvent:] + 2043
+	14  UIKit                               0x000000010b5d840b -[UIWindow sendEvent:] + 4011
+	15  UIKit                               0x000000010b585705 -[UIApplication sendEvent:] + 281
+	16  UIKit                               0x000000010bd5e3fd __dispatchPreprocessedEventFromEventQueue + 3194
+	17  UIKit                               0x000000010bd570dd __handleEventQueue + 4879
+	18  CoreFoundation                      0x000000010db4e951 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+	19  CoreFoundation                      0x000000010db33bdc __CFRunLoopDoSources0 + 556
+	20  CoreFoundation                      0x000000010db330c6 __CFRunLoopRun + 918
+	21  CoreFoundation                      0x000000010db32ad4 CFRunLoopRunSpecific + 420
+	22  GraphicsServices                    0x000000010fa4aa61 GSEventRunModal + 161
+	23  UIKit                               0x000000010b567de4 UIApplicationMain + 159
+	24  WebViewCopyCrash                    0x000000010aac250f main + 111
+	25  libdyld.dylib                       0x000000010eace68d start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+c

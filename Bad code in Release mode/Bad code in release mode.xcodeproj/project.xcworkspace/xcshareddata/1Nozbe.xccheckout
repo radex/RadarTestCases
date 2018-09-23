@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD5D813E-942B-48FD-AD00-4C3E64182865</string>
+	<key>IDESourceControlProjectName</key>
+	<string>1Nozbe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F64084FB589E72D0B5DEB91A3987F69CB159EA8</key>
+		<string>github.com:Nozbe/1NozbePhonegap.git</string>
+		<key>A837C4D6589193ABCB665104CA92C52B27AA4A98</key>
+		<string>github.com:Nozbe/1Nozbe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/1Nozbe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F64084FB589E72D0B5DEB91A3987F69CB159EA8</key>
+		<string>../../../..</string>
+		<key>A837C4D6589193ABCB665104CA92C52B27AA4A98</key>
+		<string>../../../../www/app</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Nozbe/1NozbePhonegap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F64084FB589E72D0B5DEB91A3987F69CB159EA8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F64084FB589E72D0B5DEB91A3987F69CB159EA8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>1NozbePhonegap</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A837C4D6589193ABCB665104CA92C52B27AA4A98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

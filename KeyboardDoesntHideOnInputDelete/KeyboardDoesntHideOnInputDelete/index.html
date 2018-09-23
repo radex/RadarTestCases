@@ -1,0 +1,12 @@
+<!doctype html>
+
+<textarea rows=10>Tap me to open keyboard!</textarea>
+
+<div id="close" style="background:grey;padding:20px">Tap me to close it!</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$('#close').on("touchstart", function() {
+                  $('textarea').remove()
+                  })
+</script>

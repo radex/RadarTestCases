@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E6D94D11D59D3FA004F1648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D94D01D59D3FA004F1648 /* AppDelegate.swift */; };
+		6E6D94D31D59D3FA004F1648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D94D21D59D3FA004F1648 /* ViewController.swift */; };
+		6E6D94D61D59D3FA004F1648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D94D41D59D3FA004F1648 /* Main.storyboard */; };
+		6E6D94D81D59D3FA004F1648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D94D71D59D3FA004F1648 /* Assets.xcassets */; };
+		6E6D94DB1D59D3FA004F1648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D94D91D59D3FA004F1648 /* LaunchScreen.storyboard */; };
+		6E6D94E61D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D94E51D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.swift */; };
+		6E6D94F31D59D77E004F1648 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D94F21D59D77E004F1648 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E6D94E21D59D3FB004F1648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6D94C51D59D3FA004F1648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6D94CC1D59D3FA004F1648;
+			remoteInfo = WebViewKeyboardScrollingBehavior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E6D94CD1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewKeyboardScrollingBehavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6D94D01D59D3FA004F1648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E6D94D21D59D3FA004F1648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E6D94D51D59D3FA004F1648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E6D94D71D59D3FA004F1648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6D94DA1D59D3FA004F1648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E6D94DC1D59D3FA004F1648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6D94E11D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewKeyboardScrollingBehaviorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6D94E51D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewKeyboardScrollingBehaviorUITests.swift; sourceTree = "<group>"; };
+		6E6D94E71D59D3FB004F1648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6D94F21D59D77E004F1648 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6D94CA1D59D3FA004F1648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6D94DE1D59D3FB004F1648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E6D94C41D59D3FA004F1648 = {
+			isa = PBXGroup;
+			children = (
+				6E6D94CF1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior */,
+				6E6D94E41D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests */,
+				6E6D94CE1D59D3FA004F1648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6D94CE1D59D3FA004F1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D94CD1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior.app */,
+				6E6D94E11D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6D94CF1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D94D01D59D3FA004F1648 /* AppDelegate.swift */,
+				6E6D94D21D59D3FA004F1648 /* ViewController.swift */,
+				6E6D94D41D59D3FA004F1648 /* Main.storyboard */,
+				6E6D94D71D59D3FA004F1648 /* Assets.xcassets */,
+				6E6D94D91D59D3FA004F1648 /* LaunchScreen.storyboard */,
+				6E6D94DC1D59D3FA004F1648 /* Info.plist */,
+				6E6D94F21D59D77E004F1648 /* index.html */,
+			);
+			path = WebViewKeyboardScrollingBehavior;
+			sourceTree = "<group>";
+		};
+		6E6D94E41D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D94E51D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.swift */,
+				6E6D94E71D59D3FB004F1648 /* Info.plist */,
+			);
+			path = WebViewKeyboardScrollingBehaviorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6D94CC1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6D94EA1D59D3FB004F1648 /* Build configuration list for PBXNativeTarget "WebViewKeyboardScrollingBehavior" */;
+			buildPhases = (
+				6E6D94C91D59D3FA004F1648 /* Sources */,
+				6E6D94CA1D59D3FA004F1648 /* Frameworks */,
+				6E6D94CB1D59D3FA004F1648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewKeyboardScrollingBehavior;
+			productName = WebViewKeyboardScrollingBehavior;
+			productReference = 6E6D94CD1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E6D94E01D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6D94ED1D59D3FB004F1648 /* Build configuration list for PBXNativeTarget "WebViewKeyboardScrollingBehaviorUITests" */;
+			buildPhases = (
+				6E6D94DD1D59D3FB004F1648 /* Sources */,
+				6E6D94DE1D59D3FB004F1648 /* Frameworks */,
+				6E6D94DF1D59D3FB004F1648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6D94E31D59D3FB004F1648 /* PBXTargetDependency */,
+			);
+			name = WebViewKeyboardScrollingBehaviorUITests;
+			productName = WebViewKeyboardScrollingBehaviorUITests;
+			productReference = 6E6D94E11D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6D94C51D59D3FA004F1648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nozbe;
+				TargetAttributes = {
+					6E6D94CC1D59D3FA004F1648 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WT398A4BZ6;
+						ProvisioningStyle = Automatic;
+					};
+					6E6D94E01D59D3FB004F1648 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WT398A4BZ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E6D94CC1D59D3FA004F1648;
+					};
+				};
+			};
+			buildConfigurationList = 6E6D94C81D59D3FA004F1648 /* Build configuration list for PBXProject "WebViewKeyboardScrollingBehavior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6D94C41D59D3FA004F1648;
+			productRefGroup = 6E6D94CE1D59D3FA004F1648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6D94CC1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior */,
+				6E6D94E01D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6D94CB1D59D3FA004F1648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6D94DB1D59D3FA004F1648 /* LaunchScreen.storyboard in Resources */,
+				6E6D94F31D59D77E004F1648 /* index.html in Resources */,
+				6E6D94D81D59D3FA004F1648 /* Assets.xcassets in Resources */,
+				6E6D94D61D59D3FA004F1648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6D94DF1D59D3FB004F1648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6D94C91D59D3FA004F1648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6D94D31D59D3FA004F1648 /* ViewController.swift in Sources */,
+				6E6D94D11D59D3FA004F1648 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6D94DD1D59D3FB004F1648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6D94E61D59D3FB004F1648 /* WebViewKeyboardScrollingBehaviorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E6D94E31D59D3FB004F1648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6D94CC1D59D3FA004F1648 /* WebViewKeyboardScrollingBehavior */;
+			targetProxy = 6E6D94E21D59D3FB004F1648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E6D94D41D59D3FA004F1648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6D94D51D59D3FA004F1648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E6D94D91D59D3FA004F1648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6D94DA1D59D3FA004F1648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E6D94E81D59D3FB004F1648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6D94E91D59D3FB004F1648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6D94EB1D59D3FB004F1648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WT398A4BZ6;
+				INFOPLIST_FILE = WebViewKeyboardScrollingBehavior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nozbe.dev.WebViewKeyboardScrollingBehavior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E6D94EC1D59D3FB004F1648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WT398A4BZ6;
+				INFOPLIST_FILE = WebViewKeyboardScrollingBehavior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nozbe.dev.WebViewKeyboardScrollingBehavior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E6D94EE1D59D3FB004F1648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WT398A4BZ6;
+				INFOPLIST_FILE = WebViewKeyboardScrollingBehaviorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nozbe.dev.WebViewKeyboardScrollingBehaviorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WebViewKeyboardScrollingBehavior;
+			};
+			name = Debug;
+		};
+		6E6D94EF1D59D3FB004F1648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WT398A4BZ6;
+				INFOPLIST_FILE = WebViewKeyboardScrollingBehaviorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nozbe.dev.WebViewKeyboardScrollingBehaviorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WebViewKeyboardScrollingBehavior;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6D94C81D59D3FA004F1648 /* Build configuration list for PBXProject "WebViewKeyboardScrollingBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6D94E81D59D3FB004F1648 /* Debug */,
+				6E6D94E91D59D3FB004F1648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6D94EA1D59D3FB004F1648 /* Build configuration list for PBXNativeTarget "WebViewKeyboardScrollingBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6D94EB1D59D3FB004F1648 /* Debug */,
+				6E6D94EC1D59D3FB004F1648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E6D94ED1D59D3FB004F1648 /* Build configuration list for PBXNativeTarget "WebViewKeyboardScrollingBehaviorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6D94EE1D59D3FB004F1648 /* Debug */,
+				6E6D94EF1D59D3FB004F1648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6D94C51D59D3FA004F1648 /* Project object */;
+}
